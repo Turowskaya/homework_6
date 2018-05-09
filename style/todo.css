@@ -1,0 +1,46 @@
+.todo{
+    margin-top: 20px;
+}
+.todo__input{
+    width: 300px;
+    height: 40px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+}
+.todo__button_background {
+    height: 40px;
+    width: 110px;
+    color: white;
+    border-radius: 2px;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 10px;
+}
+.todo__button-add {
+    background-color: lightseagreen;
+}
+.todo__button-delete{
+    background-color: indianred;
+}
+.todo__list{
+    clear: both;
+    width: max-content;
+    height: auto;
+}
+.todo__task:nth-child(3n){
+    color: #027fb1;
+    background-color: #bdbbbb;
+    width: max-content;
+}
+.todo__task-decoration{
+    text-decoration: line-through;
+}
+.todo__button-remove{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    border-radius: 2px;
+    background-color: lightseagreen;
+}
